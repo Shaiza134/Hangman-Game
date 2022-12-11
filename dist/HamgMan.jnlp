@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="HamgMan.jnlp">
+  <information>
+    <title>HamgMan</title>
+    <vendor>Hamid Raza</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="HamgMan.jar" size="1893260" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="800" height="600" main-class="hamgman.HamgMan"  name="HamgMan" />
+  <update check="always"/>
+</jnlp>
